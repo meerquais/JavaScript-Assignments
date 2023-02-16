@@ -486,6 +486,15 @@
 
 // Question #8
 
+
+// var divisionNumber = +prompt("Enter number");
+// if(divisionNumber % 3 == 0){
+//     document.write( divisionNumber + " is divisible by 3");
+// }else{
+//     document.write(divisionNumber + " is not divisible by 3");
+// }
+
+
 // Question #9
 
 // let userInput = +prompt("Please enter a number:");
@@ -529,12 +538,119 @@
 //     document.write("INVALID OpT")
 // }
 
-// Chapter #11-13 IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS
+// Chapter #12-13 IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS
 
 
+// Question #1
+
+// var character = prompt("Enter character");
+// if((character >= "A" || char >= "65") && (character <= "Z" || character <= "90")){
+//     document.write("Upper case letter");
+// }else if((character >= "a" || character >= 97) && (character <= "z" || character <= "122")){
+//     document.write("Lower case letter");
+// }else{
+//     document.write("Kya kar raha hai bhai??");
+// }
 
 
+// Question #2
 
+// var number1 = +prompt("Enter larger number", "0");
+// var number2 = +prompt("Enter smaller number", "0");
+// if(number1 > number2){
+//     document.write("The larger of " + number1 + " and " + number2 + " is " + number1 + ".");
+// }else if(number1 < number2){
+//     document.write("The larger of " + number1 + " and " + number2 + " is " + number2 + ".");
+// }else{
+//     document.write("Invalid");
+// }
+
+
+// Question #3
+
+// var number = +prompt("Enter Number");
+// if(number == 0){
+//     document.write("The Number is Zero")
+// }else if(number > 0){
+//     document.write("The Number is Positive")
+// }else if(number < 0){
+//     document.write("The Number is Negative")
+// }else{
+//     document.write("That's the wrong number!!")
+// }
+
+// Question #4
+
+// var character = prompt("Type Here!");
+// if((character == "a" || character == "e" || character == "i" || character == "o" || character == "u" )){
+//     document.write("The Letter is Vowel")
+// }else{
+//     document.write("The Letter isn't Vowel")
+// }
+
+// Question #5
+
+// var pw = prompt("Type Your Password here");
+// var confirmPw = prompt("Confirm Your Password");
+// var registeredPw = "meerquais";
+// if(pw === registeredPw){
+//     document.write("Correct! The password you entered matches the original password")
+// }else if(pw !== registeredPw){
+//     document.write("Incorrect Password.")
+// }else if(pw == ""){
+//     document.write("Please Input Your Password.")
+// }else if(confirmPw === registeredPw){
+//     document.write("Correct! The password you entered matches the original password")
+// }else if(confirmPw !== registeredPw){
+//     document.write("Incorrect Password.")
+// }else{
+//     document.write("what u expect from this??")
+// }
+
+
+// Question #6 
+
+
+// var hour = +prompt("Enter time.");
+// if (hour < 12) {
+// document.write("Good Day")
+// }else if(hour > 24){
+// document.write("Wrong input!!")
+// }else{
+// document.write("Good Evening")
+// }
+
+// Question #7
+
+// var time = +prompt("Please Input The time.");
+// var hours = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8, 9 , 10 , 11 , 12];
+// if(time == 13){
+//     document.write(hours[0] + ":00")
+// }else if(time == 14){
+//     document.write(hours[1] + ":00");
+// }else if(time == 15){
+//     document.write(hours[2] + ":00");
+// }else if(time == 16){
+//     document.write(hours[3] + ":00");
+// }else if(time == 17){
+//     document.write(hours[4] + ":00");
+// }else if(time == 18){
+//     document.write(hours[5] + ":00");
+// }else if(time == 19){
+//     document.write(hours[6] + ":00");
+// }else if(time == 20){
+//     document.write(hours[7] + ":00");
+// }else if(time == 21){
+//     document.write(hours[8] + ":00");
+// }else if(time == 22){
+//     document.write(hours[9] + ":00");
+// }else if(time == 23){
+//     document.write(hours[10] + ":00");
+// }else if(time == 24){
+//     document.write(hours[11] + ":00");
+// }else{
+//     document.write("Please input correct time.")
+// }
 
 
 
