@@ -623,31 +623,14 @@
 // Question #7
 
 // var time = +prompt("Please Input The time.");
-// var hours = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8, 9 , 10 , 11 , 12];
-// if(time == 13){
-//     document.write(hours[0] + ":00")
-// }else if(time == 14){
-//     document.write(hours[1] + ":00");
-// }else if(time == 15){
-//     document.write(hours[2] + ":00");
-// }else if(time == 16){
-//     document.write(hours[3] + ":00");
-// }else if(time == 17){
-//     document.write(hours[4] + ":00");
-// }else if(time == 18){
-//     document.write(hours[5] + ":00");
-// }else if(time == 19){
-//     document.write(hours[6] + ":00");
-// }else if(time == 20){
-//     document.write(hours[7] + ":00");
-// }else if(time == 21){
-//     document.write(hours[8] + ":00");
-// }else if(time == 22){
-//     document.write(hours[9] + ":00");
-// }else if(time == 23){
-//     document.write(hours[10] + ":00");
-// }else if(time == 24){
-//     document.write(hours[11] + ":00");
+// if(time >= 0000 && time < 1200){
+//     document.write("Good Morning!!")
+// }else if(time >= 1200 && time <1700){
+//     document.write("Good Afternoon!!");
+// }else if(time >=1700 && time < 2100){
+//     document.write("Good Evening!!");
+// }else if(time >=2100 && time <=2359){
+//     document.write("Good Night!!");
 // }else{
 //     document.write("Please input correct time.")
 // }
